@@ -1,0 +1,101 @@
+header {
+    display: block;
+}
+
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.2;
+    background-color: #efefef;
+    color: #585858;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    margin: 30px auto;
+    background-color: #fff;
+    box-shadow: 0 1px 30px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.bscadr-logo {
+    max-width: 50%;
+    position: relative;
+    float: left;
+}
+
+.bscard-main {
+    max-width: 50%;
+    float: left;
+    position: relative;
+}
+
+img {
+    position: relative;
+    max-width: 92%;
+    padding-left: 2%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.bscard-main__contacts::before,
+.bscard-main__contacts::after {
+    content: " ";
+    display: table;
+}
+
+.bscard-main__contacts .cont {
+    display: block;
+    margin-left: 125px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #9da0a7;
+}
+
+.bscard-main__contacts {
+    padding-top: 4%;
+}
+
+.bscard-main__contacts strong {
+    display: block;
+    width: 120px;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.cont-fsn {
+    font-size: 25px;
+    font-weight: 700;
+    color: #155ca8;
+}
+
+.cont-pos,
+.cont-comp {
+    font-size: 20px;
+    font-weight: 300;
+    font-stretch: condensed;
+}
+
+.cont-comp {
+    margin-bottom: 31%;
+    display: inline-block;
+}
