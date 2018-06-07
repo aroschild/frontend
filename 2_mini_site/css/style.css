@@ -1,0 +1,172 @@
+/* general styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, San-Serif;
+    font-size: 100%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 13px;
+    line-height: 1.3em;
+}
+
+.container {
+    margin: 0 auto;
+    width: 960px;
+}
+/* header */
+.header {
+    padding: 50px 0;
+    background-color: rgb(0, 66, 117);
+}
+
+.header h1,
+.header h2 {
+    color: rgb(56, 168, 255);
+    text-align: center;
+}
+/* navigation */
+.page-navigation {
+    background-color: rgb(155, 155, 155);
+    border-color: rgb(76, 76, 76);
+    min-height: 64px;
+}
+
+.page-navigation li {
+    float: left;
+    width: 100px;
+}
+
+.page-navigation a {
+    display: block;
+    color: rgb(229, 229, 229);
+    line-height: 4em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.page-navigation li a:hover {
+    color: rgb(0, 66, 117);
+    background-color: rgb(119, 119, 119);
+}
+/* login form */
+.login {
+    padding: 18px 0;
+    float: right;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    padding: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login input[type="submit"] {
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
+
+.login input[type="submit"]:hover,
+button:hover {
+    background-color: rgb(119, 119, 119);
+    color: white;
+    border: 1px solid rgb(229, 229, 229);
+}
+/* main part*/
+.collections {
+    overflow: auto;
+}
+
+.collection-title {
+    padding-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(119, 119, 119);
+    font-size: 36px;
+}
+
+.collection-title small {
+    color: rgb(119, 119, 119);
+    font-size: 70%;
+    margin-left: 15px;
+}
+
+.collection-item-outer {
+    display: inline-block;
+    float: left;
+    padding: 10px 5px 5px 5px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+
+.collections > div:first-child {
+    padding-left: 0;
+    padding-right: 10px;
+}
+
+.collections > div:last-child {
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+.collection-item {
+    border: 1px solid rgb(119, 119, 119);
+}
+
+.collection-item img,
+.collection-item video {
+    width: 100%;
+}
+
+.collection-text {
+    padding: 0 20px 20px 20px;
+}
+
+.collection-text h3 {
+    color: rgb(56, 168, 255);
+    overflow: hidden;
+}
+
+.collection-text p {
+    height: 90px;
+    overflow: hidden;
+}
+
+.collection-text button {
+    padding: 10px;
+    border: 1px solid rgb(229, 229, 229);
+    border-radius: 5px;
+    outline: none;
+}
+
+.collection-text button:hover {
+    background-color: rgb(56, 168, 255);
+}
+/* footer */
+.footer {
+    margin-top: 15px;
+    padding: 15px 0;
+    background-color: rgb(0, 66, 117);
+    color: rgb(229, 229, 229);
+}
+
+.footer p {
+    font-weight: 700;
+    text-align: center;
+}

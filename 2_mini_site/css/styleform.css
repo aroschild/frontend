@@ -1,0 +1,126 @@
+/* sign up form */
+h2 {
+    font-family: Arial, San-Serif;
+    margin-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(0, 66, 117);
+}
+
+.create_account {
+    width: 500px;
+}
+
+.f_name input[type="text"],
+.l_name input[type="text"] {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    outline: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    float: left;
+    font-size: 18px;
+    width: 218px;
+}
+
+.mob_mail input[type="text"],
+.pass input[type="password"] {
+    padding: 10px;
+    border: 1px solid lightgrey;
+    outline: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 468px;
+}
+
+.gender_choose input[type="radio"] {
+    margin-right: 5px;
+}
+
+p {
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.s_month select {
+    padding: 5px 10px;
+    border: 1px solid lightgrey;
+    outline: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: left;
+    font-size: 15px;
+    width: 90px;
+}
+
+.s_day select {
+    padding: 5px 10px;
+    border: 1px solid lightgrey;
+    outline: none;
+    margin-bottom: 15px;
+    float: left;
+    font-size: 15px;
+    width: 90px;
+}
+
+.s_year select {
+    padding: 5px 10px;
+    border: 1px solid lightgrey;
+    outline: none;
+    margin-bottom: 15px;
+    float: left;
+    font-size: 15px;
+    width: 90px;
+}
+
+.birth_need a {
+    font-size: 12px;
+    color: rgb(40, 90, 168);
+    margin-left: 10px;
+    float: left;
+    width: 200px;
+    padding: 3px;
+}
+
+.birth_need a:hover {
+    text-decoration: underline;
+}
+
+.gender_choose {
+    margin-top: 55px;
+    margin-left: 10px;
+}
+
+.confirmation p {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: grey;
+}
+
+.confirmation a {
+    color: rgb(57, 89, 153);
+}
+
+.confirmation a:hover {
+    text-decoration: underline;
+    color: rgb(57, 89, 153);
+    cursor: pointer;
+}
+
+.button_sbm button {
+    padding: 5px 15px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
+
+.button_sbm button:hover {
+    background-color: rgb(56, 168, 255);
+    color: white;
+    border: 1px solid rgb(229, 229, 229);
+}
